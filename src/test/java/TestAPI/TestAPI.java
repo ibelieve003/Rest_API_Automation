@@ -24,9 +24,4 @@ public class TestAPI {
 			body("data[1].id",equalTo(8)).
 			log().all();
 	}
-	
-	@Test
-	public void test_3() {
-		
-	}
 }
