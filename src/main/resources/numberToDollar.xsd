@@ -1,0 +1,12 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://www.dataaccess.com/webservicesserver/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="NumberToDollarsResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="NumberToDollarsResult" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
