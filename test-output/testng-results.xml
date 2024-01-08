@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-06T21:03:44 IST" name="Default suite" finished-at="2024-01-06T21:03:48 IST" duration-ms="3600">
+  <suite started-at="2024-01-08T16:16:31 IST" name="Default suite" finished-at="2024-01-08T16:16:37 IST" duration-ms="5227">
     <groups>
     </groups>
-    <test started-at="2024-01-06T21:03:44 IST" name="Default test" finished-at="2024-01-06T21:03:48 IST" duration-ms="3600">
-      <class name="TestAPI.TestAPI">
-        <test-method signature="test_1()[pri:0, instance:TestAPI.TestAPI@ffaa6af]" started-at="2024-01-06T21:03:44 IST" name="test_1" finished-at="2024-01-06T21:03:48 IST" duration-ms="3495" status="PASS">
+    <test started-at="2024-01-08T16:16:31 IST" name="Default test" finished-at="2024-01-08T16:16:37 IST" duration-ms="5227">
+      <class name="validator.JSONSchemaValidator">
+        <test-method signature="doGet()[pri:0, instance:validator.JSONSchemaValidator@82de64a]" started-at="2024-01-08T16:16:31 IST" name="doGet" finished-at="2024-01-08T16:16:36 IST" duration-ms="5057" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_1 -->
-      </class> <!-- TestAPI.TestAPI -->
+        </test-method> <!-- doGet -->
+      </class> <!-- validator.JSONSchemaValidator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
